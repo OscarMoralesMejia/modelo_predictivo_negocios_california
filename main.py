@@ -23,7 +23,7 @@ categorias={'Korean restaurant': 0, 'Fast food restaurant': 1, 'Pizza restaurant
 
 @app.get("/")
 def read_root():
-    return {"message": "Bienvenido, a mi api sobre peliculas"}
+    return {"message": "Bienvenido, a la api de recomendaciones sobre ciudades y categorias de restaurantes"}
 
 #def seleccionar_opcion(opcion: str = Query(..., enum=list(opciones.keys()))):
 
